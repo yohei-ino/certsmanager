@@ -1,0 +1,22 @@
+# .gitignore
+
+# .env files
+**/.env
+
+# key files
+**/*.key
+**/*.pem
+**/*.crt
+**/*.csr
+
+# os files
+.DS_Store
+
+# ide files
+.idea/
+.vscode/
+
+# build files
+bin/
+
+
