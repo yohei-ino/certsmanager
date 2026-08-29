@@ -17,6 +17,7 @@ release = 'v0.1.0'
 extensions = [
     'myst_parser',
     'sphinx_multitoc_numbering',
+    'sphinxcontrib.mermaid',
 ]
 
 templates_path = ['_templates']

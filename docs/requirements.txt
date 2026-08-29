@@ -3,6 +3,7 @@ sphinx-linklint
 sphinx-multitoc-numbering
 sphinx-notfound-page
 sphinxext-opengraph
+sphinxcontrib-mermaid
 furo
 myst-parser
 
