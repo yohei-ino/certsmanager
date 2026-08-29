@@ -1,6 +1,6 @@
 # README
 
-##  HTML build
+## HTML build
 
 ```bash
 make html
