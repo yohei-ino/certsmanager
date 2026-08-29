@@ -3,6 +3,10 @@
 # .env files
 **/.env
 
+# venv
+.venv/
+**/venv/
+
 # key files
 **/*.key
 **/*.pem
