@@ -3,4 +3,5 @@ sphinx-linklint
 sphinx-notfound-page
 sphinxext-opengraph
 furo
+myst-parser
 
