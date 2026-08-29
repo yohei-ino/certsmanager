@@ -16,9 +16,12 @@ certsmanager documentation
    :caption: Contents:
    :numbered:
 
+   welcome_message
+   concept
    installation
    usage
    documentation
+   changelog
    contribute
 
 
