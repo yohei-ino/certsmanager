@@ -1,0 +1,6 @@
+sphinx
+sphinx-linklint
+sphinx-notfound-page
+sphinxext-opengraph
+furo
+
