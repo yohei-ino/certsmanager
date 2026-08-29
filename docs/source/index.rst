@@ -16,3 +16,9 @@ documentation for details.
    :caption: Contents:
    :numbered:
 
+   installation
+   usage
+   documentation
+   contribute
+
+
