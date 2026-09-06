@@ -1,0 +1,18 @@
+networks:
+  certsmanager-net-docs:
+    name: certsmanager-net-docs
+    driver: bridge
+
+services:
+  doc:
+    build:
+      context: .
+      dockerfile: Containerfile
+    container_name: doc
+    hostname: doc
+    networks:
+      - certsmanager-net-docs
+    volumes:
+      - .:/app
+    command: >
+      tail -f /dev/null

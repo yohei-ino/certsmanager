@@ -1,0 +1,27 @@
+FROM python:3.14-trixie
+
+RUN useradd -m appuser
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    make \
+    latexmk \
+    texlive-latex-recommended \
+    texlive-latex-extra \
+    texlive-fonts-recommended \
+    texlive-lang-japanese \
+    fonts-noto-cjk \
+    tex-gyre \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+USER appuser
+
+COPY --chown=appuser:appuser . /app
+
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir --user -r requirements.txt
+
+ENV PATH="/home/appuser/.local/bin:$PATH"
+
+
